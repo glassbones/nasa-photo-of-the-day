@@ -1,5 +1,23 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 95vh;
+  max-width: 1200px;
 }
 
 .App-logo {
@@ -36,3 +54,51 @@
     transform: rotate(360deg);
   }
 }
+
+
+header{
+  height: 50px;
+  position: fixed;
+  top:0;
+  width: 100vw;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+
+}
+
+.nasa-photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50vh;
+  width: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+
+.text-content{
+  padding: 15px;
+  text-align: left;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .nasa-photo{height: 80%; width:95%}}
+
