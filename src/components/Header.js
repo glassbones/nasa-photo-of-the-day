@@ -5,7 +5,7 @@ import React from "react"
 const Header = props => 
 (
     <header>
-        <h3 style = {props.tStyles.head}>🚀 NasaTitle</h3>
+        <h3 style = {props.tStyles.head}><span role='img' aria-label = "rocket">🚀</span> NasaTitle</h3>
         <p style = {props.tStyles.head}>Maybe Click this</p>
     </header>
 )
