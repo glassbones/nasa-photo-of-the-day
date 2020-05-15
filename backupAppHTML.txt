@@ -1,0 +1,24 @@
+/*
+    <div className="App">
+      <header>
+        <h3 style = {headText}>🚀 NasaTitle</h3>
+        <p style = {headText}>Maybe Click this</p>
+      </header>
+      <div className="container">
+        <div className="nasa-photo" style = {photoStyle}>
+          <div className="text-content">
+            <h1 style = {h1Text}>{data.title}</h1>
+            <h2 style = {h2Text}>{data.date}</h2>
+            <p  style = {globalText}>{data.explanation}</p>
+          </div>
+        </div>
+        {/*<div className="text-content">
+          <h1 style = {globalText}>{data.title}</h1>
+          <h2 style = {h2Text}>{data.date}</h2>
+          <p  style = {globalText}>{data.explanation}</p>
+        </div>*//*
+      </div>
+      <footer style = {footerText}>Made with love in React!
+      </footer>
+    </div>
+*/
